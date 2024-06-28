@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "**/tests/**/*.ts",
+    "**/test/**/*.ts",
+    "**/__test__/**/*.ts",
+    "**/__tests__/**/*.ts",
+    "**/*.spec.ts",
+    "**/*.infra.ts",
+    "**/*.test.ts",
+    "**/*.e2e.ts",
+  ],
+}
