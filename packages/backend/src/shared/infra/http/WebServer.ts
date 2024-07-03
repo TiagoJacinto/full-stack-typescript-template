@@ -23,10 +23,6 @@ export class WebServer {
     this.express.use(express.json());
   }
 
-  public mountRouter(path: string, router: express.Router) {
-    this.express.use(path, router);
-  }
-
   start(): Promise<void> {
     return new Promise((resolve) => {
       ProcessService.killProcessOnPort(this.config.port, () => {
